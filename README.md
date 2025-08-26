@@ -1,9 +1,4 @@
----
-
-
-
 # E-Commerce CLI in Python
-
 ## Description
 This is a simple *Command-Line Interface (CLI) E-Commerce system* built in Python for beginners.  
 It allows the user to:
