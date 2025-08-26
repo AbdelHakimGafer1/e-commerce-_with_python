@@ -1,65 +1,69 @@
-# E-Commerce CLI in Python
-## Description
-This is a simple *Command-Line Interface (CLI) E-Commerce system* built in Python for beginners.  
-It allows the user to:
-- Add new products.
-- View all products.
-- Search and filter products.
-- Add products to a cart.
-- View and remove items from cart.
-- Checkout and save orders.
+
+---
+# 🛒 E-Commerce CLI in Python
+
+## 📌 Description
+This is a simple **Command-Line Interface (CLI) E-Commerce system** built with Python for beginners.  
+It allows users to:
+- ➕ Add new products.  
+- 👀 View all products.  
+- 🔍 Search and filter products.  
+- 🛍️ Add products to a cart.  
+- 🗑️ View and remove items from cart.  
+- 💳 Checkout and save orders.  
 
 The project demonstrates basic Python concepts:
-- *List* → store multiple products, cart items, and orders.
-- *Dictionary* → represent each product with keys like id, name, price, stock.
-- *Tuple* → store fixed values like product priorities (Low, Medium, High).
+- **List** → store multiple products, cart items, and orders.  
+- **Dictionary** → represent each product with keys like `id`, `name`, `price`, `stock`.  
+- **Tuple** → store fixed values like product priorities (Low, Medium, High).  
 
 ---
 
-## Project Files
-- ecommerce_full.py → main application.
-- products.json → stores all products (created automatically if not present).
-- orders.json → stores orders (created automatically if not present).
+## 📂 Project Files
+- `ecommerce_full.py` → main application.  
+- `products.json` → stores all products (created automatically if not present).  
+- `orders.json` → stores orders (created automatically if not present).  
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 ### Requirements
 - Python 3 installed.
 
 ### Steps (Linux / Mac / Windows PowerShell)
-bash
+```bash
 git clone https://github.com/AbdelHakimGafer1/e-commerce-_with_python
-
+cd e-commerce-_with_python
 python ecommerce_full.py
-`
+````
 
 ### Steps (on Termux - Android)
 
-1. Install Termux from F-Droid or Play Store.
+1. Install Termux from **F-Droid** or **Play Store**.
 2. Update and install Python:
 
-   bash
+   ```bash
    pkg update && pkg upgrade -y
    pkg install python git -y
-   
+   ```
 3. Clone the repository:
 
-   bash
-   git clone https://github.com/abdelhakimgafer1/e-commerce-_with_python
-   
-4. Run:
+   ```bash
+   git clone https://github.com/AbdelHakimGafer1/e-commerce-_with_python
+   cd e-commerce-_with_python
+   ```
+4. Run the program:
 
-   bash
+   ```bash
    python ecommerce_full.py
-   
+   ```
 
 ---
 
-## Example Interaction
+## 🎮 Example Interaction
 
-
+```
 --- E-Commerce CLI ---
 1. Show Products
 2. Add Product
@@ -70,6 +74,7 @@ python ecommerce_full.py
 7. Remove from Cart
 8. Checkout
 9. Exit
+
 Enter your choice: 2
 Enter product name: Laptop
 Enter product price: 5000
@@ -78,13 +83,13 @@ Enter category (e.g. Electronics, Clothing): Electronics
 Choose priority: 1.Low  2.Medium  3.High
 Enter number: 2
 Product 'Laptop' added successfully!
-
+```
 
 ---
 
-## Full Code: ecommerce_full.py
+## 💻 Full Code (ecommerce\_full.py)
 
-python
+```python
 import json
 
 # =========================
@@ -305,6 +310,16 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
-
+```
 
 ---
+
+## 👨‍💻 Author
+
+Developed by **[Abdel Hakim Gafer](https://github.com/AbdelHakimGafer1)** 🚀
+
+---
+
+```
+
+```
